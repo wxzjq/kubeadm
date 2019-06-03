@@ -1,4 +1,4 @@
-# This is a Kubernetes Cluster Deployment Experiment for Data Persistent Storage Test.
+# This is a Kubernetes cluster deployment experiment for data persistent storage test.
 
 Step 1: Setup and Deploy Kubernetes Cluster
 
