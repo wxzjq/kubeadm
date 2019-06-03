@@ -2,8 +2,11 @@
 
 Step 1: Setup and Deploy Kubernetes Cluster
 1, install Kubernetes cluster
-# There are three servers for K8S cluster
-# K8S_Master, K8S_Node1, K8S_Node2
+   There are three servers for K8S cluster. These servers are running on AWS EC2.
+      K8S_Master:
+      K8S_Node1:
+      K8S_Node2:
+   
 
 
 
