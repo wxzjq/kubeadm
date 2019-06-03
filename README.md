@@ -1,6 +1,12 @@
 # This is a Kubernetes cluster deployment experiment for data persistent storage test.
 
 Step 1: Setup and Deploy Kubernetes Cluster
+1, install Kubernetes cluster
+# There are three servers for K8S cluster
+# K8S_Master, K8S_Node1, K8S_Node2
+
+
+
 
 
 
