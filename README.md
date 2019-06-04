@@ -9,7 +9,6 @@ Deploy files:
 	├── kube-worker.yaml
 	├── mariadb-pv.yaml
 	├── mariadb-pvc.yaml
-	├── tree.txt
 	├── wordpress-pv.yaml
 	└── wordpress-pvc.yaml
 
