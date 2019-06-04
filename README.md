@@ -106,8 +106,8 @@ Deploy files:
 		persistentvolume/wordpress-pv   10Gi       RWO,ROX        Retain           Bound    default/wordpress-wordpress                                2m20s
 
 		NAME                                             STATUS   VOLUME         CAPACITY   ACCESS MODES   STORAGECLASS   AGE
-		persistentvolumeclaim/data-wordpress-mariadb-0   Bound    mariadb-pv     1Gi        RWO,ROX                       84s
-		persistentvolumeclaim/wordpress-wordpress        Bound    wordpress-pv   10Gi       RWO,ROX 
+		persistentvolumeclaim/wordpress-mariadb   Bound    mariadb-pv     1Gi        RWO,ROX                       84s
+		persistentvolumeclaim/wordpress-wordpress Bound    wordpress-pv   10Gi       RWO,ROX 
 
 	5) 	Launch Wordpress through Helm client
 
