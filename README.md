@@ -4,7 +4,7 @@ Task:
 
 1) Create Kubernetes cluster through ansible on Amazon aws.
 2) Install Helm tools to install Kubernetes package.
-3) Deploy wordpress and MariaDB through Helm, and mount AWS EBS as persistent storage.
+3) Deploy wordpress and MariaDB through Helm, and mount AWS EBS for the persistent.
 
 Deploy files:
 
