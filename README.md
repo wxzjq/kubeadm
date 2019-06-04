@@ -91,7 +91,7 @@ Deploy files:
 	   	kubectl create -f mariadb-pv.yaml
   	   	kubectl create -f mariadb-pvc.yaml
 
-  	4) 	Check PV&PBC Status
+  	4) 	Check PV&PVC Status
 
   		ubuntu@ip-172-31-25-221:~$ kubectl get pv,pvc
 
