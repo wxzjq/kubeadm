@@ -1,9 +1,9 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: data-wordpress-mariadb-0
+  name: wordpress-mariadb
 spec:
-  storageClassName: ""
+  storageClassName: manual
   accessModes:
     - ReadWriteOnce
   resources:
