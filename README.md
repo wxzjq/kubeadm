@@ -105,7 +105,7 @@ Deploy files:
 		persistentvolume/mariadb-pv     1Gi        RWO,ROX        Retain           Bound    default/data-wordpress-mariadb-0                           89s
 		persistentvolume/wordpress-pv   10Gi       RWO,ROX        Retain           Bound    default/wordpress-wordpress                                2m20s
 
-		NAME                                             STATUS   VOLUME         CAPACITY   ACCESS MODES   STORAGECLASS   AGE
+		NAME                                      STATUS   VOLUME         CAPACITY   ACCESS MODES   STORAGECLASS   AGE
 		persistentvolumeclaim/wordpress-mariadb   Bound    mariadb-pv     1Gi        RWO,ROX                       84s
 		persistentvolumeclaim/wordpress-wordpress Bound    wordpress-pv   10Gi       RWO,ROX 
 
