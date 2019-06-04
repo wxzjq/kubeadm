@@ -1,5 +1,11 @@
 Kubernetes installation and deploy wordpress for test
 
+Task:
+
+1) Create Kubernetes cluster through ansible on Amazon aws.
+2) Install Helm tools to install Kubernetes package.
+3) Deploy wordpress and MariaDB through Helm, and mount AWS EBS as persistent storage.
+
 Deploy files:
 
 	├── README.md
@@ -31,7 +37,7 @@ Deploy files:
 		ip-172-31-27-212   Ready    <none>   4m14s   v1.14.0
 		ip-172-31-30-7     Ready    <none>   4m14s   v1.14.0
 
-	5)  Kubernetes cluster is ready for services.
+	5)  	Kubernetes cluster is ready for services.
 
 
 2, Helm package management installation:
@@ -75,7 +81,7 @@ Deploy files:
 
 3, Install Wordpress and MariaDB through Helm, and test persistent claim on Kubernetes
 	
-	1) 	Create 2 EBS block on AWS, one is for Wordpress persistent storage, another is for MariaDB persistent storage.
+	1) 	Create 2 EBS block on AWS, one is for Wordpress persistent, another is for MariaDB persistent.
 
 		wordpress: 
 		aws ec2 create-volume --availability-zone ap-southeast-1a --size 20 --volume-type gp2
