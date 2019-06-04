@@ -1,5 +1,18 @@
 Kubernetes installation and deploy wordpress for test
 
+Deploy files:
+
+	├── README.md
+	├── hosts
+	├── kube-dependencies.yaml
+	├── kube-master.yaml
+	├── kube-worker.yaml
+	├── mariadb-pv.yaml
+	├── mariadb-pvc.yaml
+	├── tree.txt
+	├── wordpress-pv.yaml
+	└── wordpress-pvc.yaml
+
 1, kubernetes cluster installation:
 
 	1) 	install docker and related package on Master and workers.
