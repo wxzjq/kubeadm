@@ -1,5 +1,7 @@
 - hosts: master
   become: yes
+  become_user: root
+  become_method: sudo 
   tasks:
     - name: initialize the cluster
       shell: kubeadm init --pod-network-cidr=10.244.0.0/16 >> cluster_initialized.txt

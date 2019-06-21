@@ -1,5 +1,7 @@
 - hosts: master
   become: yes
+  become_user: root
+  become_method: sudo
   gather_facts: false
   tasks:
     - name: get join command
