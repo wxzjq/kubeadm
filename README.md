@@ -39,7 +39,6 @@ Deploy files:
 
 	5)  	Kubernetes cluster is ready for services.
 
-
 2, Helm package management installation:
 
 	1) install helm client
